@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basicbankingsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/banking_system"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BasicBankingSystem">
+        <activity
+            android:name=".SendMoney"
+            android:label="Select an user" />
+        <activity
+            android:name=".DetailsScreen"
+            android:label="User Details" />
+        <activity
+            android:name=".Transactions"
+            android:label="All Transactions" />
+
+        <provider
+            android:name=".Data_Users.UsersProvider"
+            android:authorities="com.example.basicbankingsystem"
+            android:exported="false" />
+
+        <activity
+            android:name=".Users"
+            android:label="All Users" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BasicBankingSystem</string>
+    <string name="banking_system">Banking System</string>
+    <string name="view_all_users">VIEW ALL USERS</string>
+    <string name="view_all_transactions">VIEW ALL TRANSACTIONS</string>
+    <string name="account_balance">Account Balance:</string>
+    <string name="amount">Amount:</string>
+    <string name="name">Name :</string>
+    <string name="account_number">Account No :</string>
+    <string name="phone_no">Phone No :</string>
+    <string name="email_id">Email Id :</string>
+    <string name="balance">Balance :</string>
+
+</resources>
